@@ -1,7 +1,7 @@
 
 const botoes = document.querySelectorAll(".botao");
 
-const musica = new Audio('src/music/tema.mp3'); 
+const musica = new Audio('./src/music/tema.mp3'); 
 musica.play();
 
 
