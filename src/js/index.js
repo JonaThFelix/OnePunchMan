@@ -1,6 +1,9 @@
 
 const botoes = document.querySelectorAll(".botao");
 
+const musica = new Audio('src/music/tema.mp3'); 
+musica.play();
+
 
 const personagens = document.querySelectorAll(".personagem");
 
