@@ -1,13 +1,13 @@
 
 const botoes = document.querySelectorAll(".botao");
 
-const musica = new Audio('./src/music/tema.mp3'); 
+const musica = new Audio('src/music/tema.mp3'); 
 musica.play();
 
 
 const personagens = document.querySelectorAll(".personagem");
 
-botoes.forEach((botao, indice) => {
+botoes.forEach((botao, indice) => { musica.play();
   botao.addEventListener("click", () => {
 
     desselecionarBotao();
@@ -20,7 +20,7 @@ botoes.forEach((botao, indice) => {
   });
 });
 
-function desselecionarPersonagem() {
+function desselecionarPersonagem() { musica.play();
     // função para remover o personagem selecionado
     const personagemSelecionado = document.querySelector(
         ".personagem.selecionado"
@@ -28,7 +28,7 @@ function desselecionarPersonagem() {
     personagemSelecionado.classList.remove("selecionado");
 }
 
-function desselecionarBotao() {
+function desselecionarBotao() { musica.play();
     // função para remover o botão selecionado
     const botaoSelecionado = document.querySelector(".botao.selecionado");
     botaoSelecionado.classList.remove("selecionado");
